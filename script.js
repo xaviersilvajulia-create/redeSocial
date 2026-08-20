@@ -21,13 +21,21 @@ let cont = 0;
 
  //coração
  function applyLikedStyle (){
+ likeSvg.style.fill ="#ef4444";
+ likeSvg.style.stroke = "#ef4444";
+ likeSvg.style.color = "#ef4444";
  
-
-
-
-
- }
     
+  //efeito curtida
+  LikeSvg.style.transform = "scale(1.3)";
+  setTimeout(() => (likeSvg.style.transform = "scala(1)")150);
+
+
+
+
+
+
+
  }
 
 
